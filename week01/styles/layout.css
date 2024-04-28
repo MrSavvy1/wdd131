@@ -8,7 +8,7 @@ header{
 	grid-column: 1/4;
 	color:white;
 	text-align: left;
-	font-size: 5px;
+	font-size: 1px;
 	
 }
 
@@ -19,6 +19,8 @@ main{
 	color:orange;
 	text-align: left;
 	font-size: 5px;
+	height: 60%;
+	
 	
 }
 
@@ -27,12 +29,13 @@ aside{
 	background-color: navy;
 	text-align: left;
 	font-size: 5px;
+	hight: 60%;
 }
 
 nav{
 	display: flex;  
 	justify-content: space-between;
-	width: 100%;
+	width: auto;
 	padding: 10px 20px; 
 	background-color: 	#36454F;
 }
@@ -41,13 +44,13 @@ nav a{
 	font-size: 5px;
 	color: white;
 	text-decoration: none;
-	flex-grow: 1;
+	flex: auto;
 	text-align: center;
 }
 
 footer{
 	grid-column:1/4;
-	font-size: 5px;
+	font-size: 3px;
 	background-color: black;
 	color: white;
 	text-align: center;
