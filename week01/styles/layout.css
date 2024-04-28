@@ -8,7 +8,7 @@ header{
 	grid-column: 1/4;
 	color:white;
 	text-align: left;
-	font-size: 2em;
+	font-size: 20px;
 	
 }
 
@@ -18,7 +18,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 1em;
+	font-size: 15px;
 	
 }
 
@@ -26,23 +26,27 @@ aside{
 	grid-column:3/4;
 	background-color: navy;
 	text-align: left;
-	font-size: 1em;
+	font-size: 15px;
 }
 
 nav{
-	display: flex;
-	background-color: 	#36454F;
+	display: flex;  
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px 20px; 
 }
 
 nav a{
-	font-size: 0.6em;
-	flex: auto;
-	color: blue;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	flex-grow: 1;
+	text-align: center;
 }
 
 footer{
 	grid-column:1/4;
-	font-size: 1em;
+	font-size: 18px;
 	background-color: black;
 	color: white;
 }
