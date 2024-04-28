@@ -27,14 +27,14 @@ header{
 
 #first{
 	float: right;
-	width: 400px;
-	height: 300px;
+	width:70px;
+	height: 60px;
 }
 
 #second{
 	float: left;
-	width: 400px;
-	height: 300px;
+	width: 40px;
+	height: 30px;
 }
 
 p{
@@ -63,7 +63,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 8px;
+	font-size: 20px;
 }
 
 aside{
@@ -71,7 +71,7 @@ aside{
 	grid-column:3/4;
 	background-color: navy;
 	text-align: left;
-	font-size: 8px;
+	font-size: 20px;
 	color:white;
 
 }
