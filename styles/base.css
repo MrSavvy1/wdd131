@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 }
 
 
@@ -13,13 +13,13 @@ body{
 
 header{
 	background-color: black;
-	/*grid-column: 1/4;*/
+	grid-column: 1/4;
 	background-color: #bbb;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	/* display: flex; */
+	/* align-items: center;
+	justify-content: center; */
 	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	/* border: 1px solid rgba(0, 0, 0, 0.1); */
 	color:white;
 	text-align: left;
 	font-size: 3px;
