@@ -25,6 +25,18 @@ header{
 	font-size: 3px;
 }
 
+#first{
+	float: right;
+	width: 400px;
+	height: 300px;
+}
+
+#second{
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+
 p{
   font-family: "Lobster", sans-serif;
   font-weight: 400;
