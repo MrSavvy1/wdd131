@@ -1,3 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
 body{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -5,16 +13,36 @@ body{
 
 header{
 	background-color: black;
-	grid-column: 1/4;
+	/*grid-column: 1/4;*/
+	background-color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	color:white;
 	text-align: left;
 	font-size: 3px;
-	
 }
+
+p{
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 header h1{
 	margin: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
 }
+
 
 
 main{
@@ -24,9 +52,6 @@ main{
 	color:orange;
 	text-align: left;
 	font-size: 8px;
-	
-	
-	
 }
 
 aside{
@@ -66,4 +91,23 @@ footer{
 
 .card{
 	height: 60vh;
+}
+
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+.active {
+	color: yellow;
+}
+
+/* Larger Views ******************************/
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
 }
