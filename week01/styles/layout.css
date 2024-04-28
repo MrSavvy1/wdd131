@@ -21,6 +21,7 @@ aside{
 }
 nav{
 	display: flex;
+	bacground-color: 	#36454F;
 }
 
 nav a{
