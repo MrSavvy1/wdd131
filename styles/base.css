@@ -26,23 +26,25 @@ header{
 }
 
 #first{
-	width:10px;
-	height: 5px;
+	width:50px;
+	height: 30px;
 }
 
 #second{
-	width: 10px;
-	height: 5px;
+	width: 50px;
+	height: 30px;
 }
 
 p{
   font-family: "Lobster", sans-serif;
   font-weight: 400;
   font-style: normal;
+	font-size: 20px;
 }
 
 
 header h1{
+	font-size: 2em;
 	margin: 5px;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -121,6 +123,7 @@ nav a:hover {
 }
 
 /* Larger Views ******************************/
+/*
 @media (min-width: 640px) {
 	nav ul {
 		display: flex;
@@ -129,3 +132,4 @@ nav a:hover {
 		flex: 1 1 100%;
 	}
 }
+*/
