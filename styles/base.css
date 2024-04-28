@@ -26,29 +26,29 @@ header{
 }
 
 #first{
-	width:50px;
-	height: 30px;
+	width:40px;
+	height: 60px;
 }
 
 #second{
-	width: 50px;
-	height: 30px;
+	width: 40px;
+	height: 60px;
 }
 
 p{
   font-family: "Lobster", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 	font-size: 20px;
 }
 
 
 header h1{
-	font-size: 2em;
+	font-size: 0.5em;
 	margin: 5px;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
   font-variation-settings:
     "wdth" 100,
@@ -63,7 +63,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 aside{
@@ -71,7 +71,7 @@ aside{
 	grid-column:3/4;
 	background-color: navy;
 	text-align: left;
-	font-size: 20px;
+	font-size: 10px;
 	color:white;
 
 }
