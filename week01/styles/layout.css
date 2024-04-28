@@ -20,7 +20,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 5px;
+	font-size: 20px;
 	
 	
 	
@@ -31,7 +31,7 @@ aside{
 	grid-column:3/4;
 	background-color: navy;
 	text-align: left;
-	font-size: 5px;
+	font-size: 20px;
 	color:white;
 
 }
