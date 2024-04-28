@@ -26,15 +26,13 @@ header{
 }
 
 #first{
-	float: right;
-	width:70px;
-	height: 60px;
+	width:10px;
+	height: 5px;
 }
 
 #second{
-	float: left;
-	width: 40px;
-	height: 30px;
+	width: 10px;
+	height: 5px;
 }
 
 p{
@@ -74,6 +72,14 @@ aside{
 	font-size: 20px;
 	color:white;
 
+}
+
+.in{
+	float: left;
+}
+
+.out{
+	float: right;
 }
 
 nav{
