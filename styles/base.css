@@ -9,14 +9,13 @@ header{
 	background-color: black;
 	grid-column: 1/4;
 	background-color: #bbb;
-	padding: 20px;
 	color:white;
 	text-align: left;
 	font-size: 3px;
 }
 
 #first{
-	display: inline-block;
+	position: relative;
 	
 	width:100px;
 	height: 150px;
@@ -32,19 +31,14 @@ header{
 p{
   font-family: "Lobster", sans-serif;
   font-style: normal;
-	font-size: 20px;
+	font-size: 10px;
 }
 
 
 header{
-	font-size: 0.5em;
+	font-size: 1em;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100,
-    "YTLC" 500;
+
 }
 
 
@@ -55,7 +49,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 10px;
+	font-size: 5px;
 }
 
 aside{
@@ -63,7 +57,7 @@ aside{
 	grid-column:3/4;
 	background-color: navy;
 	text-align: left;
-	font-size: 10px;
+	font-size: 5px;
 	color:white;
 
 }
@@ -75,6 +69,7 @@ aside{
 
 .out{
 	float: right;
+	display: relative;
 }
 
 nav{
