@@ -4,13 +4,16 @@ body{
 }
 
 header{
-	padding-left: 5px;
 	background-color: black;
 	grid-column: 1/4;
 	color:white;
 	text-align: left;
 	font-size: 3px;
 	
+}
+
+header h1{
+	margin: 5px;
 }
 
 
@@ -20,7 +23,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 20px;
+	font-size: 8px;
 	
 	
 	
@@ -31,7 +34,7 @@ aside{
 	grid-column:3/4;
 	background-color: navy;
 	text-align: left;
-	font-size: 20px;
+	font-size: 8px;
 	color:white;
 
 }
@@ -40,7 +43,7 @@ nav{
 	display: flex;  
 	justify-content: space-between;
 	width: 100%;
-	padding: 10px. 18%; 
+	padding: 10px. 19%; 
 	background-color: 	#36454F;
 }
 
