@@ -36,7 +36,7 @@ nav{
 	display: flex;  
 	justify-content: space-between;
 	width: 100%;
-	padding: 1fr 1fr; 
+	padding: 10px 2vw; 
 	background-color: 	#36454F;
 }
 
