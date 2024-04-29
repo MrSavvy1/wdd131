@@ -13,23 +13,28 @@ header{
 	text-align: left;
 	font-size: 3px;
 }
-.container{
+
+header h1{
+	font-size: 3em;
+	margin: 10px;
+}
+.card{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-
+	margin: 5px;
 }
 
 #first{
 
-	width:100px;
-	height: 150px;
+	width:150px;
+	height: auto;
 }
 
 #second{
 	
-	width: 20px;
-	height: 60px;
+	width: 10px;
+	height: auto;
 }
 
 p{
@@ -54,6 +59,8 @@ main{
 	color:orange;
 	text-align: left;
 	font-size: 5px;
+	justify-content: space-around;
+	
 }
 
 aside{
@@ -64,11 +71,13 @@ aside{
 	font-size: 5px;
 	color:white;
 	justify-content: space-around;
-	
-
+	align-items: center;
+	align-content: center;
 }
 
 .in{
+	width: 100px;
+	height: auto;
 	
 }
 
@@ -79,13 +88,12 @@ aside{
 nav{
 	display: flex;  
 	justify-content: space-between;
-	width: 100%;
 	padding: 10px auto; 
 	background-color: #36454F;
 }
 
 nav a{
-	font-size: 5px;
+	font-size: 20px;
 	flex-direction: column;
 	color: white;
 	text-decoration: none;
@@ -101,9 +109,6 @@ footer{
 	text-align: center;
 }
 
-.card{
-	height: 60vh;
-}
 
 
 nav a:hover {
