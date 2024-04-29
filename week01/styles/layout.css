@@ -36,6 +36,9 @@ aside{
 	text-align: left;
 	font-size: 8px;
 	color:white;
+	justify-content: space-around;
+	align-content: center;
+	
 
 }
 
