@@ -13,18 +13,22 @@ header{
 	text-align: left;
 	font-size: 3px;
 }
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
 
 #first{
-	position: relative;
-	
+
 	width:100px;
 	height: 150px;
 }
 
 #second{
-	display: inline;
-	position: abslute;
-	width: 40px;
+	
+	width: 20px;
 	height: 60px;
 }
 
@@ -63,13 +67,11 @@ aside{
 }
 
 .in{
-	float: left;
-	display: absolute;
+	
 }
 
 .out{
-	float: right;
-	display: relative;
+	
 }
 
 nav{
