@@ -15,7 +15,7 @@ header{
 }
 
 header h1{
-	font-size: 3em;
+	font-size: 1em;
 	margin: 10px;
 }
 .card{
@@ -27,13 +27,13 @@ header h1{
 
 #first{
 
-	width:150px;
+	width:100px;
 	height: auto;
 }
 
 #second{
 	
-	width: 10px;
+	width: 3px;
 	height: auto;
 }
 
@@ -70,13 +70,14 @@ aside{
 	text-align: left;
 	font-size: 5px;
 	color:white;
-	justify-content: space-around;
+	justify-content: center;
+	justify-items: center;
 	align-items: center;
 	align-content: center;
 }
 
 .in{
-	width: 100px;
+	width: auto;
 	height: auto;
 	
 }
