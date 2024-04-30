@@ -3,7 +3,7 @@
 body{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	gap: 1em;
+	gap: 0.5em;
 }
 
 header{
@@ -19,7 +19,7 @@ header{
 
 main section h2{
 	text-align: center;
-	fomt-size: 1em;
+	fomt-size: 3em;
 }
 
 header h1{
@@ -49,7 +49,7 @@ header h1{
 main section p{
   font-family: "Lobster", sans-serif;
   font-style: normal;
-	font-size: 10px;
+	font-size: 2em;
 }
 
 
@@ -88,7 +88,8 @@ aside{
 aside ul li a{
   margin-bottom: 15px;
 	color:white;
-	fomt-size: 1em;
+	fomt-size: 3em;
+	padiing: 15px;
 }
 
 aside ul {
@@ -97,6 +98,7 @@ aside ul {
 	padding: 0;
 	margin: 0;
 	text-align: center; 
+	justifiy-itens: spac-around;
 }
 
 .in{
@@ -105,7 +107,7 @@ aside ul {
 	fomt-size: 0.8em;
 	width: 50%;
 	height: auto;
-	float: left;
+	float: right;
 	
 }
 
