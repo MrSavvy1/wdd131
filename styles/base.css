@@ -39,7 +39,7 @@ header h1{
 
 #first{
 	float: right;
-	width: 50%;
+	width: 40%;
 	height: auto;
 	margin-left: 5px;
 	
@@ -48,7 +48,7 @@ header h1{
 
 #second{
 	float:left;
-	width: 50%;
+	width: 40%;
 	height: auto;
 	margin-right: 5px;
 
@@ -106,7 +106,7 @@ aside ul li {
 aside ul li a{
 	color:white;
 	font-size: 3em;
-	padding: 15px;
+	padding: 10px;
 }
 
 
@@ -114,9 +114,9 @@ aside ul {
 	color:white;
 	list-style: none;
 	padding: 5px;
-	margin-top: 25%;
-	margin-bottom: 25%;
-	text-align: center; 
+	margin-top: 50%;
+	margin-bottom: 50%;
+	text-align: left; 
 	justify-items: space-around;
 	justify-content: center;
 	
