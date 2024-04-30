@@ -42,7 +42,7 @@ header h1{
 	width: 40%;
 	height: auto;
 	margin-left: 5px;
-	
+	position: absolute
 }
 
 #second{
@@ -50,6 +50,8 @@ header h1{
 	width: 10%;
 	height: auto;
 	margin-right: 5px;
+	position: absolute;
+	
 }
 
 main section p{
@@ -114,6 +116,7 @@ aside ul {
 	font-size: 0.8em;
 	width: 50%;
 	height: auto;
+	position: absolute;
 	
 }
 
