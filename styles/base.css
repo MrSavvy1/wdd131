@@ -106,10 +106,12 @@ aside ul li a{
 aside ul {
 	color:white;
 	list-style: none;
-	padding: 0;
+	padding: 5px;
 	margin: 0 auto;
 	text-align: center; 
-	justifiy-items: space-around;
+	justify-items: space-around;
+	justify-content: center;
+	
 	
 }
 
