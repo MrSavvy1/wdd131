@@ -39,7 +39,7 @@ header h1{
 
 #first{
 	float: right;
-	width: 10%;
+	width: 50%;
 	height: auto;
 	margin-left: 5px;
 	
@@ -48,7 +48,7 @@ header h1{
 
 #second{
 	float:left;
-	width: 10%;
+	width: 50%;
 	height: auto;
 	margin-right: 5px;
 
@@ -94,14 +94,17 @@ aside{
 	align-content: center;
 }
 
-aside ul li a{
+aside ul li {
   margin-bottom: 15px;
 	color:white;
 	font-size: 3em;
 	padding: 15px;
 	margin: 0 auto;
-	
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
+
 
 aside ul {
 	color:white;
@@ -116,7 +119,7 @@ aside ul {
 }
 
 .in{
-	font-size: 1em;
+	font-size: 1.8em;
 	width: 60%;
 	height: auto;
 	display: inline-block;;
@@ -125,7 +128,7 @@ aside ul {
 }
 
 .out{
-	
+	color:navy;
 }
 
 nav{
