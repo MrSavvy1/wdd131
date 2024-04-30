@@ -21,6 +21,7 @@ header h1{
 	font-size: 1em;
 	margin: 10px;
 	color:#36454F;
+	text-align: center;
 	
 }
 .card{
@@ -31,14 +32,12 @@ header h1{
 }
 
 #first{
-	posiiton: relative;
-	width:100px;
+	width:50%;
 	height: auto;
 }
 
 #second{
-	position: relative;
-	width: 3px;
+	width: 50%;
 	height: auto;
 }
 
@@ -87,16 +86,17 @@ aside ul li {
 }
 
 aside ul {
-    list-style: none;
-    padding: 0; 
-    margin: 0;   
-    text-align: center; 
+	color:white;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center; 
 }
 
 .in{
 	display: inline;
-	margin: 0;
-	width: auto;
+	
+	width: 50%;
 	height: auto;
 	float: left;
 	
