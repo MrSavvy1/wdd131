@@ -39,7 +39,7 @@ header h1{
 
 #first{
 	float: right;
-	width: 40%;
+	width: 30%;
 	height: auto;
 	margin-left: 5px;
 	
@@ -48,7 +48,7 @@ header h1{
 
 #second{
 	float:left;
-	width: 40%;
+	width: 30%;
 	height: auto;
 	margin-right: 5px;
 
@@ -173,7 +173,7 @@ nav a:hover {
 }
 
 /* Larger Views ******************************/
-/*
+
 @media (min-width: 640px) {
 	nav ul {
 		display: flex;
@@ -182,4 +182,3 @@ nav a:hover {
 		flex: 1 1 100%;
 	}
 }
-*/
