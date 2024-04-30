@@ -34,16 +34,22 @@ header h1{
 	justify-content: space-around;
 	margin: 15px;
 	padding: 15px;
+	overflow: hidden;
 }
 
 #first{
-	width:50%;
+	float: right;
+	width: 40%;
 	height: auto;
+	margin-left: 5px;
+	
 }
 
 #second{
-	width: 50%;
+	float:left;
+	width: 40%;
 	height: auto;
+	margin-right: 5px;
 }
 
 main section p{
@@ -88,8 +94,9 @@ aside{
 aside ul li a{
   margin-bottom: 15px;
 	color:white;
-	fomt-size: 3em;
-	padiing: 15px;
+	font-size: 3em;
+	padding: 15px;
+	
 }
 
 aside ul {
@@ -98,16 +105,15 @@ aside ul {
 	padding: 0;
 	margin: 0;
 	text-align: center; 
-	justifiy-itens: spac-around;
+	justifiy-items: space-around;
 }
 
 .in{
 	margin: 5px;
 	display: inline;
-	fomt-size: 0.8em;
+	font-size: 0.8em;
 	width: 50%;
 	height: auto;
-	float: left;
 	
 }
 
