@@ -42,7 +42,9 @@ header h1{
 	width: 40%;
 	height: auto;
 	margin-left: 5px;
-	position: absolute
+	position: absolute;
+	
+
 }
 
 #second{
@@ -50,7 +52,7 @@ header h1{
 	width: 10%;
 	height: auto;
 	margin-right: 5px;
-	position: absolute;
+
 	
 }
 
@@ -98,6 +100,7 @@ aside ul li a{
 	color:white;
 	font-size: 3em;
 	padding: 15px;
+	margin: 0 auto;
 	
 }
 
@@ -112,11 +115,11 @@ aside ul {
 }
 
 .in{
-	margin: 5px;
-	font-size: 0.8em;
-	width: 50%;
+	font-size: 1em;
+	width: 40%;
 	height: auto;
-	position: absolute;
+	display: inline-block;;
+	
 	
 }
 
