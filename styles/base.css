@@ -96,13 +96,17 @@ aside{
 
 aside ul li {
   margin-bottom: 15px;
-	color:white;
-	font-size: 3em;
 	padding: 15px;
-	margin: 0 auto;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+}
+
+
+aside ul li a{
+	color:white;
+	font-size: 3em;
+	padding: 15px;
 }
 
 
@@ -110,7 +114,8 @@ aside ul {
 	color:white;
 	list-style: none;
 	padding: 5px;
-	margin: 0 auto;
+	margin-top: 25%;
+	margin-bottom: 25%;
 	text-align: center; 
 	justify-items: space-around;
 	justify-content: center;
