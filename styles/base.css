@@ -19,7 +19,7 @@ header{
 
 main section h2{
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 header h1{
@@ -58,7 +58,7 @@ header h1{
 main section p{
   font-family: "Lobster", sans-serif;
   font-style: normal;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 
@@ -128,7 +128,7 @@ aside ul {
 }
 
 .in{
-	font-size: 2em;
+	font-size: 2rem;
 	width: 60%;
 	height: auto;
 	display: inline-block;;
@@ -149,7 +149,7 @@ nav{
 }
 
 nav a{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	flex-direction: column;
 	color: white;
 	text-decoration: none;
@@ -160,7 +160,7 @@ nav a{
 
 footer{
 	grid-column:1/4;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	background-color: black;
 	color: white;
 	text-align: center;
