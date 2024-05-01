@@ -114,7 +114,6 @@ aside ul li a{
 
 aside ul {
 	color:white;
-	list-style: none;
 	padding: 5px;
 	margin-top: 50%;
 	margin-bottom: 50%;
@@ -126,7 +125,7 @@ aside ul {
 }
 
 .in{
-	font-size: 1.8em;
+	font-size: 2em;
 	width: 60%;
 	height: auto;
 	display: inline-block;;
@@ -136,6 +135,7 @@ aside ul {
 
 .out{
 	color:navy;
+	font-size: 2em;
 }
 
 nav{
@@ -146,7 +146,7 @@ nav{
 }
 
 nav a{
-	font-size: 0.7em;
+	font-size: 1em;
 	flex-direction: column;
 	color: white;
 	text-decoration: none;
@@ -157,10 +157,11 @@ nav a{
 
 footer{
 	grid-column:1/4;
-	font-size: 3px;
+	font-size: 2em;
 	background-color: black;
 	color: white;
 	text-align: center;
+	
 }
 
 
