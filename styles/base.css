@@ -19,7 +19,7 @@ header{
 
 main section h2{
 	text-align: center;
-	font-size: 1rem;
+	font-size: 2rem;
 }
 
 header h1{
@@ -75,7 +75,7 @@ main{
 	background-color: gray;
 	color:orange;
 	text-align: left;
-	font-size: 20px;
+	font-size: 1rem;
 	justify-content: space-around;
 	max-width: 1700px;
 	
@@ -128,7 +128,7 @@ aside ul {
 }
 
 .in{
-	font-size: 20px;
+	font-size: 1rem;
 	width: 60%;
 	height: auto;
 	display: inline-block;;
