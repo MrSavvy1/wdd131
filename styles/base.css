@@ -12,18 +12,18 @@ header{
 	background-color: #bbb;
 	color:white;
 	text-align: left;
-	font-size: 3px;
+	font-size: 4px;
 	justify-content: center;
 	align-items: center;
 }
 
 main section h2{
 	text-align: center;
-	fomt-size: 3em;
+	font-size: 3em;
 }
 
 header h1{
-	font-size: 1em;
+	font-size: 2em;
 	margin: 10px;
 	color:#36454F;
 	text-align: center;
@@ -63,7 +63,6 @@ main section p{
 
 
 header{
-	font-size: 1em;
   font-family: "Nunito Sans", sans-serif;
 
 }
@@ -111,6 +110,10 @@ aside ul li a{
 	padding: 10px;
 }
 
+aside ul li a:hover{
+	color:orange;
+}
+
 
 aside ul {
 	color:white;
@@ -135,7 +138,7 @@ aside ul {
 
 .out{
 	color:navy;
-	font-size: 2em;
+
 }
 
 nav{
@@ -168,8 +171,9 @@ footer{
 
 nav a:hover {
 	text-decoration:overline;
-	color: white;
+	color: red;
 }
+
 
 .active {
 	color: yellow;
