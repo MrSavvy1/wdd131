@@ -19,11 +19,11 @@ header{
 
 main section h2{
 	text-align: center;
-	font-size: 3em;
+	font-size: 3rem;
 }
 
 header h1{
-	font-size: 2em;
+	font-size: 2rem;
 	margin: 10px;
 	color:#36454F;
 	text-align: center;
@@ -149,7 +149,7 @@ nav{
 }
 
 nav a{
-	font-size: 1em;
+	font-size: 2rem;
 	flex-direction: column;
 	color: white;
 	text-decoration: none;
@@ -160,7 +160,7 @@ nav a{
 
 footer{
 	grid-column:1/4;
-	font-size: 2em;
+	font-size: 1.7rem;
 	background-color: black;
 	color: white;
 	text-align: center;
