@@ -18,14 +18,15 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1rem;
-	align-items:center;
+	
 	background-color: orange;
 }
 
 section {
 	padding-bottom: 2rem;
 	background-color: #fff;
-	height: 80%;
+	height: 90%;
+
 }
 
 footer p{
@@ -41,5 +42,8 @@ footer{
 
 main section p{
 	font-size: 1rem;
-	padding: 5px;
+	
+}
+main section{
+	padding: 20px;
 }

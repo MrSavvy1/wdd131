@@ -7,16 +7,18 @@
 	main{
 		grid-template-columns: 1fr 1fr;
 		backgroud-color: pink;
-		jusitfy-content: center;
+		jusitfy-content: left;
 	}
 	.no_card{
 		grid-column: 2/3;
-		text-align: center;
+		text-align: left;
+		padding: 20px;
 	}
 
 	.card{
 		grid-column: 1/2;
-		text-align: center;
+		text-align: left;
+		padding: 20px;
 	}
 }
 
