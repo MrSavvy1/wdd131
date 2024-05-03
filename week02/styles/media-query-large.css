@@ -1,14 +1,14 @@
 @media screen and (min-width: 500px){
 	header{
-		backgroud-color: black;
+		background-color: black;
 		color: white;
 	}
 
 	main{
 		grid-template-columns: 1fr 1fr;
-		backgroud-color: pink;
-		jusitfy-content: left;
+		background-color: pink;
 	}
+	
 	.no_card{
 		grid-column: 2/3;
 		text-align: left;
