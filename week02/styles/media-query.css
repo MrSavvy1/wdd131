@@ -12,25 +12,27 @@ header, main, footer {
 	margin: 1rem auto;
 	border: 1px solid #bbb;
 	padding: 1rem;
-	justify-itmes: center;
-}
+	}
 
 main {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1rem;
 	align-items:center;
-	bacground-color: orange;
+	background-color: orange;
 }
 
 section {
-	padding: 1rem;
+	padding-bottom: 2rem;
 	background-color: #fff;
+	height: 80%;
 }
 
 footer p{
 	font-size: 1rem;
 	text-align: left;
+	width: 40%;
+	color: white;
 }
 
 footer{
@@ -38,5 +40,6 @@ footer{
 }
 
 main section p{
-	font-size: 0.8rem;
+	font-size: 1rem;
+	padding: 5px;
 }
