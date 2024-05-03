@@ -6,5 +6,17 @@
 
 	main{
 		grid-template-columns: 1fr 1fr;
+		backgroud-color: pink;
+		jusitfy-content: center;
+	}
+	.no_card{
+		grid-column: 2/3;
+		text-align: center;
+	}
+
+	.card{
+		grid-column: 1/2;
+		text-align: center;
 	}
 }
+
