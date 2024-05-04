@@ -49,9 +49,6 @@ figure {
     background: #fff;
     padding: 10px;
     border: 1px solid #ccc;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -94,4 +91,8 @@ nav {
 
 main h2{
     text-align: center;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
