@@ -28,7 +28,7 @@
         width: calc(33.333% - 20px);
     }
 
-    section {
+    div {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
