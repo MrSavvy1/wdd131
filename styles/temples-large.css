@@ -28,4 +28,10 @@
         width: calc(33.333% - 20px);
         float: left;
     }
+
+    section {
+        padding: 20px;
+        margin-bottom: 20px;
+        
+    }
 }
