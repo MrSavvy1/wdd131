@@ -44,6 +44,7 @@ figure {
     background: #fff;
     padding: 10px;
     border: 1px solid #ccc;
+    width: 100%;
 }
 
 figcaption {
