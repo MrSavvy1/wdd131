@@ -88,3 +88,7 @@ footer {
 nav {
     display: none;
 }
+
+main h2{
+    text-align: center;
+}
