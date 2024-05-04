@@ -49,12 +49,15 @@ figure {
     background: #fff;
     padding: 10px;
     border: 1px solid #ccc;
+<<<<<<< HEAD
     width: 100%;
     text-align: center;
     justify-content: center;
     overflow: hidden;
 
     
+=======
+>>>>>>> parent of 688afbe (Another filed)
 }
 
 figcaption {
