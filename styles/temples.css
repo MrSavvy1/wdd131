@@ -45,6 +45,9 @@ figure {
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 figcaption {
