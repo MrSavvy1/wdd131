@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #f0f0f0;
+    --text-color: #000;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.weather::after {
+    content: url('img/weather-icon.svg'); /* Assuming SVG for wide screens */
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 600px) {
+    .weather::after {
+        content: "⛅"; /* Emoji for narrow screens */
+    }
+}
