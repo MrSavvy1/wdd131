@@ -1,10 +1,11 @@
 @media (min-width: 700px) {
 
 	.weath::after {
-    content: url('images/weather.svg');
+    content: url('images/cloud.svg');
     display: inline-block;
     width: 24px;
     height: 24px;
+		vertical-align: middle;
 }
 	section{
 		background-color: gray;
@@ -19,5 +20,6 @@
 	}
 	.data{
 		grid-column: 1/2;
+		margint-bottom: 70px;
 	}
 }
