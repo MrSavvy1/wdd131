@@ -1,6 +1,6 @@
 @media (min-width: 700px) {
 
-	weather::after {
+	.weath::after {
     content: url('images/weather.svg');
     display: inline-block;
     width: 24px;
@@ -15,6 +15,7 @@
 	}
 	.weather{
 		grid-column: 3/4;
+		margin-top: 30px;
 	}
 	.data{
 		grid-column: 1/2;

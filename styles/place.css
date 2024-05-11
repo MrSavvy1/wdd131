@@ -41,12 +41,3 @@ footer {
 section h2{
     background-color: var(--primary-color);
 }
-/*
-@media (max-width: 500px) {
-    main{
-    justify-items: center;
-    text-align: center;
-    margin: 0 auto;
-    }
-}
-*/
