@@ -1,8 +1,8 @@
 :root {
-    --primary-color: orange;
-    --secondary-color: #f0f0ad;
-    --background-color: #f7f7f7;
-    --text-color: pink;
+    --primary-color: red;
+    --secondary-color: navy;
+    --background-color: black;
+    --text-color: white;;
 }
 
 body {
@@ -21,9 +21,7 @@ header {
 
 main {
     padding: 20px;
-    justify-items: center;
-    text-align: center;
-    margin: 0 auto;
+   
 
 }
 
@@ -41,8 +39,12 @@ footer {
 section h2{
     background-color: var(--primary-color);
 }
-
-@media (max-width: 600px) {
-    .
+/*
+@media (max-width: 500px) {
+    main{
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
     }
 }
+*/
