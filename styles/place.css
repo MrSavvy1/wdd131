@@ -9,6 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: var(--text-color);
     background-color: var(--background-color);
+    text-align: center;
 }
 
 header {
@@ -24,6 +25,7 @@ main {
    
 
 }
+
 
 footer {
     text-align: center;
