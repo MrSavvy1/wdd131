@@ -11,7 +11,7 @@ function calculateWindChill(temperature, windSpeed) {
 
 document.getElementById('windChill').textContent = calculateWindChill(10, 5).toFixed(2) + "°C";
 
-var lastSpan = document.querySelector('.weath');
+/*var lastSpan = document.querySelector('.weath');
 var img = document.createElement('img');
 img.src = 'images/weather.svg';
 img.alt = 'Weather Icon';
@@ -19,4 +19,4 @@ img.style.width = '24px';
 img.style.height = '24px';
 img.style.verticalAlign = 'middle';
 
-lastSpan.appendChild(img);
+lastSpan.appendChild(img);*/

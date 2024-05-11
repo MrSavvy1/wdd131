@@ -24,4 +24,7 @@
 		grid-column: 1/2;
 		margin-bottom: 70px;
 	}
+	section h2{
+			background-color: var(--primary-color);
+	}
 }

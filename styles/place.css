@@ -25,6 +25,11 @@ main {
    
 
 }
+.weath img{
+    width: 34px;
+    height: 34px;
+    display: inline-block:
+}
 
 
 footer {
@@ -38,6 +43,3 @@ footer {
     content: "⛅";
 }
 
-section h2{
-    background-color: var(--primary-color);
-}
