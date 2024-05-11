@@ -15,7 +15,7 @@
 	}
 	.weather{
 		grid-column: 3/4;
-		margin-top: 30px;
+		margin-top: 70px;
 	}
 	.data{
 		grid-column: 1/2;
