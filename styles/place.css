@@ -30,7 +30,7 @@ footer {
 }
 
 .weather::after {
-    content: url('img/weather-icon.svg'); /* Assuming SVG for wide screens */
+    content: url('images/weather.svg');
     display: inline-block;
     width: 24px;
     height: 24px;
@@ -38,6 +38,6 @@ footer {
 
 @media (max-width: 600px) {
     .weather::after {
-        content: "⛅"; /* Emoji for narrow screens */
+        content: "⛅";
     }
 }

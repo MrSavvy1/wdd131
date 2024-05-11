@@ -1,0 +1,7 @@
+@media (min-width: 600px) {
+	.weather{
+		display: float;
+		float: right;
+		background-color: #f0f0ad0;
+	}
+}
