@@ -1,9 +1,5 @@
 @media (min-width: 700px) {
-	.weather{
-		margin-top: 5px;
-		margin-right: 0px;
-		background-color: #f0f0ad0;
-	}
+
 	weather::after {
     content: url('images/weather.svg');
     display: inline-block;
@@ -12,7 +8,15 @@
 }
 	section{
 		background-color: gray;
-		position: absolute;
 	}
-	
+	main{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.weather{
+		grid-column: 3/4;
+	}
+	.data{
+		grid-column: 1/2;
+	}
 }
