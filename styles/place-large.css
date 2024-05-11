@@ -1,12 +1,14 @@
 @media (min-width: 700px) {
 
 	.weath::after {
-    content: url('images/weather.svg');
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-		vertical-align: middle;
+		content: "";
 }
+	.weath::after img{
+		display: inline-block;
+		width: 5px;
+		height: 5px;
+		vertical-align: middle;
+	}
 	section{
 		background-color: gray;
 	}
