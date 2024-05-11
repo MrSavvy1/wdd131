@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #333;
-    --secondary-color: #555;
-    --background-color: #f0f0f0;
-    --text-color: #000;
+    --primary-color: orange;
+    --secondary-color: #f0f0ad;
+    --background-color: #f7f7f7;
+    --text-color: pink;
 }
 
 body {
@@ -20,6 +20,10 @@ header {
 
 main {
     padding: 20px;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 footer {
@@ -30,14 +34,14 @@ footer {
 }
 
 .weather::after {
-    content: url('images/weather.svg');
-    display: inline-block;
-    width: 24px;
-    height: 24px;
+    content: "⛅";
+}
+
+section h2{
+    background-color: var(--primary-color);
 }
 
 @media (max-width: 600px) {
-    .weather::after {
-        content: "⛅";
+    .
     }
 }
