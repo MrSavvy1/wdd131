@@ -1,5 +1,8 @@
 @media (min-width: 700px) {
 
+	body{
+		max-width: 1700px;
+	}
 	.weath::after {
 		content: "";
 }
@@ -9,6 +12,8 @@
 		height: 5px;
 		vertical-align: middle;
 	}
+
+	header 
 	section{
 		background-color: gray;
 	}
