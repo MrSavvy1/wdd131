@@ -16,12 +16,12 @@ header {
     background-color: var(--primary-color);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     overflow: hidden;
-}
+    }
 
 main {
-    padding: 20px;
+    padding: 10px;
    
 
 }
@@ -44,7 +44,7 @@ footer {
 }
 
 header img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
