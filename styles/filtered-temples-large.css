@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    main {
+        max-width: 768px;
+    }
+
+    figure {
+        width: calc(100% - 20px);
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
