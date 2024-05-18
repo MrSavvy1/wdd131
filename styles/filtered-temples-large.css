@@ -14,7 +14,7 @@
     }
 
     nav {
-        display: block;
+        displiay: block;
     }
 
     nav ul {
@@ -25,12 +25,15 @@
 
     #temple-container{
         text-align: center;
-        justfy-content: center;
         align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
     }
 
     main {
-        max-width: 768px;
+        max-width: 1900px;
+        
     }
 
     figure {
