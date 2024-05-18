@@ -139,7 +139,7 @@ displayTemples(temples);
 
 
 
-// another dunction
+// filter
 function filterOld() {
   const oldTemples = temples.filter(temple => new Date(temple.dedicated).getFullYear() < 1900);
   displayTemples(oldTemples);

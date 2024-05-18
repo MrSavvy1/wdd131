@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+    body {
+        text-align: center;
+    }
     header {
         display: flex;
         justify-content: space-between;
@@ -17,6 +20,12 @@
     nav ul {
         display: flex;
         justify-content: space-around;
+        align-items: center;
+    }
+
+    #temple-container{
+        text-align: center;
+        justfy-content: center;
         align-items: center;
     }
 
