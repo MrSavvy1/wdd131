@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const lastModified = document.lastModified; 
     document.getElementById('currentyear').textContent += currentYear;
     document.getElementById('lastModified').textContent += lastModified;
-});
+    
 
 
 
