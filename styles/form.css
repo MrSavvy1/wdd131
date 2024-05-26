@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0dfe4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #42224e;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #42224e;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.rating input:checked ~ label {
+    color: gold;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #42224e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #5c2f70;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #42224e;
+    color: #fff;
+}
+
+footer p {
+    margin: 5px 0;
+}
