@@ -3,11 +3,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #ecf0f1;
-	color: #2c3e50;
+	color: navy;
 }
 
 header {
-	background-color: #2c3e50;
+	background-color: gray;
 	color: #fff;
 	padding: 10px 0;
 }
@@ -29,7 +29,7 @@ nav ul li a {
 }
 
 footer {
-	background-color: #2c3e50;
+	background-color: gray;
 	color: #fff;
 	text-align: center;
 	padding: 10px 0;
@@ -40,7 +40,8 @@ footer {
 
 main {
 	padding: 20px;
-	padding-bottom: 60px; /* Ensure content is not hidden behind the footer */
+	padding-bottom: 60px; 
+	
 }
 
 .products, .cart, .product-details {
@@ -57,7 +58,7 @@ main {
 	padding: 10px;
 	margin: 10px;
 	width: 100%;
-	max-width: 370px; /* Ensure the image doesn't exceed this width */
+	max-width: 370px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -72,7 +73,7 @@ main {
 	padding: 10px;
 	margin: 10px;
 	
-	width: calc(25% - 20px); /* Adjust width to include margins */
+	width: calc(25% - 20px);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	display: flex;
 	flex-direction: column;
@@ -83,7 +84,7 @@ main {
 
 .product-item img, .cart-item img {
 	height: 370px;
-	max-height: 370px; /* Limit the height to ensure consistency */
+	max-height: 370px; 
 	object-fit: cover;
 }
 
@@ -113,14 +114,16 @@ main {
 	margin: 20px 0;
 }
 
-/* Add responsive styles */
+
 @media (max-width: 600px) {
 	nav ul {
 			flex-direction: column;
+		text-align: center;
+		
 	}
 
 	nav ul li {
-			margin: 5px 0;
+			margin: 10px 0;
 	}
 
 	.product-item, .cart-item {
