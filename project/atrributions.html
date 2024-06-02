@@ -3,8 +3,8 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>SimpleShop - Cart</title>
-		<link rel="stylesheet" href="scripts/project_porfolio/commerce.css">
+		<title>SimpleShop - Contact</title>
+		<link rel="stylesheet" href="styles/commerce.css">
 </head>
 <body>
 		<header>
@@ -19,11 +19,20 @@
 		</header>
 
 		<main>
-				<section class="cart">
-						<h2>Your Cart</h2>
-						<div class="cart-items"></div>
-						<p class="total-price">Total: $0.00</p>
-						<button class="checkout">Checkout</button>
+				<section class="contact-form">
+						<h2>Contact Us</h2>
+						<form id="contactForm">
+								<label for="name">Name:</label>
+								<input type="text" id="name" name="name" required>
+
+								<label for="email">Email:</label>
+								<input type="email" id="email" name="email" required>
+
+								<label for="message">Message:</label>
+								<textarea id="message" name="message" required></textarea>
+
+								<button type="submit">Submit</button>
+						</form>
 				</section>
 		</main>
 

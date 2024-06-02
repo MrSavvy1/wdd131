@@ -3,8 +3,8 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>SimpleShop - Product</title>
-		<link rel="stylesheet" href="project_porfolio/styles/commerce.css">
+		<title>SimpleShop - Cart</title>
+		<link rel="stylesheet" href="styles/commerce.css">
 </head>
 <body>
 		<header>
@@ -19,12 +19,11 @@
 		</header>
 
 		<main>
-				<section class="product-details">
-						<img data-src="product1.jpg" alt="Product 1" class="lazy">
-						<h2>Product 1</h2>
-						<p>$10.00</p>
-						<p>This is a detailed description of Product 1.</p>
-						<button class="add-to-cart" data-product="Product 1">Add to Cart</button>
+				<section class="cart">
+						<h2>Your Cart</h2>
+						<div class="cart-items"></div>
+						<p class="total-price">Total: $0.00</p>
+						<button class="checkout">Checkout</button>
 				</section>
 		</main>
 
@@ -32,6 +31,6 @@
 				<p><a href="about.html">About Us</a> | <a href="privacy.html">Privacy Policy</a> | <a href="attributions.html">Attributions</a></p>
 		</footer>
 
-		<script src="scripts.js"></script>
+		<script src="scripts/commerce.js"></script>
 </body>
 </html>

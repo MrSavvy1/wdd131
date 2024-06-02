@@ -17,15 +17,18 @@ nav ul {
 	padding: 0;
 	display: flex;
 	justify-content: center;
+	
 }
 
 nav ul li {
-	margin: 0 10px;
+	margin: 0px 3rem;
+	
 }
 
 nav ul li a {
 	color: #fff;
 	text-decoration: none;
+	
 }
 
 footer {
@@ -42,16 +45,14 @@ main {
 	padding: 20px;
 }
 
-.slider img {
-	width: 100%;
-	max-height: 300px;
-	object-fit: cover;
-}
 
 .products, .cart, .product-details {
 	margin-top: 20px;
 }
 
+.products{
+	margin-bottom: 40px;
+}
 .product-list, .cart-items {
 	display: flex;
 	flex-wrap: wrap;
@@ -62,13 +63,13 @@ main {
 	background-color: #fff;
 	padding: 10px;
 	margin: 10px;
-	width: calc(33% - 20px);
+	width: calc(25% - 5px);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-item img, .cart-item img {
 	width: 100%;
-	height: auto;
+	height: 370px;
 }
 
 .product-item h3, .cart-item h3 {
