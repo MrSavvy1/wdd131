@@ -58,4 +58,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (document.querySelector('.cart-items')) {
 				updateCart();
 		}
+
+		// Update footer year and last modified date
+		const yearElement = document.getElementById('year');
+		const lastModifiedElement = document.getElementById('lastModified');
+
+		if (yearElement) {
+				yearElement.textContent = new Date().getFullYear();
+		}
+
+		if (lastModifiedElement) {
+				lastModifiedElement.textContent = document.lastModified;
+		}
 });
